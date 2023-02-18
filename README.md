@@ -1,6 +1,14 @@
-# OwlGaming MTA
+# SourPatch MTA Roleplay Community Edition
 
-This repository contains the OwlGaming MTA codebase for Multi Theft Auto. The recommended way to deploy the code is using a docker image.
+This repository is the [69th fork](https://github.com/OwlGamingCommunity/MTA/network/members) of the [OwlGaming MTA codebase](https://github.com/OwlGamingCommunity/MTA) for [Multi Theft Auto](https://multitheftauto.com/).
+
+## Project Scope
+
+With over a decade of development, and the eventual shutdown of OwlGaming, the current codebase has various issues, which takes an experienced developer to debug and painstakingly make their best effort to get the gamemode working.
+
+Therefore the scope of this project is to make the gamemode more user-friendly and accessible, as well as extensive debugging before making improvements.
+
+~The recommended way to deploy the code is using a docker image.~
 
 ## Credits
 
@@ -11,7 +19,7 @@ The code in this repository comes from various sources from probably nearly a de
 - Build the image `docker build -t owlgaming-mta .`
 - Refer to the environment variable below and deploy using your MySQL Database
 ```shell
-docker run -p 22003:22003 -p 22005:22005 -p 22126:22126/udp -e MTA_DATABASE_NAME=... owlgaming-mta
+docker run -p 22003:22003 -p 22005:22005 -p 22126:22126/udp -e MTA_DATABASE_NAME=... owlgaming-mta~
 ```
 - You can grab the latest structures for your database from `mods/deathmatch/data`
 
