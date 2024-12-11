@@ -398,6 +398,7 @@ CREATE TABLE IF NOT EXISTS `clothing` (
   `for_sale_until` datetime DEFAULT NULL,
   `distribution` int(1) unsigned NOT NULL DEFAULT '0',
   `manufactured_date` datetime DEFAULT NULL,
+  `new_textures` TEXT DEFAULT NULL,
   `sold` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
