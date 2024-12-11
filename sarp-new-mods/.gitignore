@@ -1,0 +1,6 @@
+# sarp-new-mods
+# Ignore uploaded mod files listed in meta.xml
+# When setting up rename meta.xml.hidden to meta.xml
+meta.xml
+del_files/
+files/

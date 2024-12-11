@@ -1,0 +1,15 @@
+<meta>
+	<info name="SA-RP Modloader" author="Fernando" version="1.0" type="script" />
+
+	<script type="client" src="global.lua" cache="false" />
+	<script type="server" src="global.lua" />
+
+	<script type="client" src="client.lua" cache="false"/>
+	<script type="client" src="gui.lua" cache="false"/>
+
+	<script type="server" src="server.lua"/>
+
+	<export function="isReplacingSkin" type="client" />
+
+	<min_mta_version client="1.4.0" />
+</meta>
